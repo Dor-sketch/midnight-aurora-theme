@@ -1,0 +1,53 @@
+{
+  "manifest_version": 2,
+  "name": "Midnight Aurora",
+  "version": "2.1",
+  "description": "A sophisticated Firefox theme inspired by the mesmerizing dance of the aurora borealis in a starry night sky",
+  "theme": {
+    "colors": {
+      "frame": "#0a0f23",
+      "tab_background_text": "#c7d5e8",
+      "toolbar": "#161c32",
+      "toolbar_text": "#e0f2ff",
+      "toolbar_field": "#0f1428",
+      "toolbar_field_text": "#ffffff",
+      "toolbar_field_border": "#00ffaa",
+      "toolbar_field_focus": "#1a2038",
+      "toolbar_field_text_focus": "#ffffff",
+      "toolbar_field_border_focus": "#00ffaa",
+      "tab_line": "#00ffaa",
+      "tab_loading": "#00ffaa",
+      "tab_selected": "#1a2038",
+      "tab_text": "#e0f2ff",
+      "tab_background_separator": "#001f3f",
+      "bookmark_text": "#80e0ff",
+      "button_background_hover": "#2a305a",
+      "button_background_active": "#3a4070",
+      "popup": "#161c32",
+      "popup_text": "#e0f2ff",
+      "popup_border": "#001f3f",
+      "popup_highlight": "#00ffaa33",
+      "popup_highlight_text": "#ffffff",
+      "ntp_background": "#0a0f23",
+      "ntp_text": "#ffffff",
+      "sidebar": "#0f1428",
+      "sidebar_text": "#e0f2ff",
+      "sidebar_highlight": "#00ffaa33",
+      "sidebar_highlight_text": "#ffffff",
+      "toolbar_vertical_separator": "#001f3f",
+      "toolbar_bottom_separator": "#001f3f",
+      "icons": "#80e0ff",
+      "icons_attention": "#00ffaa"
+    },
+    "properties": {
+      "color_scheme": "dark",
+      "content_color_scheme": "dark"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0f23;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2038;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="aurora" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00ffaa;stop-opacity:0.7" />
+      <stop offset="50%" style="stop-color:#80e0ff;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#00ffaa;stop-opacity:0.7" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Night sky background -->
+  <rect width="128" height="128" fill="url(#sky)" />
+  
+  <!-- Stars -->
+  <g fill="#ffffff">
+    <circle cx="20" cy="30" r="1" />
+    <circle cx="100" cy="20" r="1.5" />
+    <circle cx="40" cy="10" r="1" />
+    <circle cx="80" cy="40" r="1" />
+    <circle cx="110" cy="50" r="1" />
+    <circle cx="60" cy="25" r="1.5" />
+  </g>
+  
+  <!-- Stylized aurora -->
+  <path d="M0 80 Q 30 40, 64 60 Q 100 80, 128 50 L 128 128 L 0 128 Z" fill="url(#aurora)" />
+  <path d="M0 90 Q 40 60, 64 70 Q 90 80, 128 60 L 128 128 L 0 128 Z" fill="url(#aurora)" opacity="0.7" />
+  <path d="M0 100 Q 20 80, 64 85 Q 100 90, 128 70 L 128 128 L 0 128 Z" fill="url(#aurora)" opacity="0.5" />
+</svg>
