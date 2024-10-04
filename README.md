@@ -36,6 +36,27 @@ To modify or contribute to this theme:
     - Click "Load Temporary Add-on"
     - Select the `manifest.json` file from your cloned repository
 
+## Color Scheme
+
+[![Color Scheme](./images/midnight-aurora-colors.svg)](./images/midnight-aurora-colors.svg)
+
+![background Header Image](./images/midnight-aurora-header-svg.svg)
+
+- Header area background: ![Header area background](https://img.shields.io/badge/0a0f23-0a0f23.svg?style=flat&color=0a0f23)
+- Header area text and icons: ![Header area text and icons](https://img.shields.io/badge/80a0c0-80a0c0.svg?style=flat&color=80e0ff)
+- Toolbar area background: ![Toolbar area background](https://img.shields.io/badge/161c32-161c32.svg?style=flat&color=161c32)
+- Toolbar area text and icons: ![Toolbar area text and icons](https://img.shields.io/badge/e0f2ff-e0f2ff.svg?style=flat&color=e0f2ff)
+- Toolbar field area background: ![Toolbar field area background](https://img.shields.io/badge/0f1428-0f1428.svg?style=flat&color=0f1428)
+- Toolbar field area text: ![Toolbar field area text](https://img.shields.io/badge/ffffff-ffffff.svg?style=flat&color=ffffff)
+- Tab highlight: ![Tab highlight](https://img.shields.io/badge/00ffaa-00ffaa.svg?style=flat&color=00ffaa)
+
+Notes:
+
+- These colors are designed to create a dark, aurora-inspired theme.
+- The dark blues (#0a0f23, #161c32, #0f1428) represent the night sky.
+- The light blue (#e0f2ff) and white (#ffffff) provide contrast for text and icons.
+- The teal color (#00ffaa) represents the aurora and is used as an accent color for the tab highlight.
+
 ## Contributing
 
 Contributions are welcome! If you have ideas for improvements or find any issues, please open an issue or submit a pull request.

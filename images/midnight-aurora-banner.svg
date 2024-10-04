@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300">
   <!-- Background -->
   <rect width="1200" height="300" fill="#0a0f23"/>
-  
+
   <!-- Stars -->
   <g fill="#ffffff">
     <circle cx="100" cy="50" r="1" />
@@ -16,24 +16,24 @@
     <circle cx="1000" cy="40" r="1" />
     <circle cx="1100" cy="60" r="1.5" />
   </g>
-  
+
   <!-- Aurora waves -->
   <path d="M0 200 Q 300 100, 600 180 Q 900 260, 1200 150 L 1200 300 L 0 300 Z" fill="#00ffaa" opacity="0.5">
-    <animate attributeName="d" 
+    <animate attributeName="d"
              values="M0 200 Q 300 100, 600 180 Q 900 260, 1200 150 L 1200 300 L 0 300 Z;
                      M0 180 Q 300 240, 600 150 Q 900 60, 1200 180 L 1200 300 L 0 300 Z;
                      M0 200 Q 300 100, 600 180 Q 900 260, 1200 150 L 1200 300 L 0 300 Z"
              dur="10s" repeatCount="indefinite"/>
   </path>
   <path d="M0 220 Q 300 280, 600 200 Q 900 120, 1200 220 L 1200 300 L 0 300 Z" fill="#80e0ff" opacity="0.3">
-    <animate attributeName="d" 
+    <animate attributeName="d"
              values="M0 220 Q 300 280, 600 200 Q 900 120, 1200 220 L 1200 300 L 0 300 Z;
                      M0 200 Q 300 140, 600 220 Q 900 300, 1200 200 L 1200 300 L 0 300 Z;
                      M0 220 Q 300 280, 600 200 Q 900 120, 1200 220 L 1200 300 L 0 300 Z"
              dur="8s" repeatCount="indefinite"/>
   </path>
-  
+
   <!-- Text -->
   <text x="600" y="140" font-family="Arial, sans-serif" font-size="60" fill="#ffffff" text-anchor="middle">Midnight Aurora</text>
-  <text x="600" y="190" font-family="Arial, sans-serif" font-size="24" fill="#80e0ff" text-anchor="middle">A Firefox Theme</text>
+  <text x="600" y="190" font-family="Arial, sans-serif" font-size="24" fill="#80e0ff" text-anchor="middle">Browsing in the dark</text>
 </svg>
