@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Midnight Aurora - Firefox Theme</title>
-    <meta name="description" content="A Firefox theme inspired by the mesmerizing dance of the aurora borealis">
+    <title>Midnight Aurora - Browser Themes and Extensions</title>
+    <meta name="description" content="Aurora-inspired themes and new tab extensions for Firefox and Chrome, bringing the mesmerizing dance of the aurora borealis to your browser">
     <meta name="author" content="DorPascal">
-    <meta name="keywords" content="firefox, theme, aurora, northern lights, dark mode">
+    <meta name="keywords" content="firefox, chrome, theme, extension, new tab, aurora, northern lights, dark mode">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="canonical" href="https://dorpascal.com/midnight-aurora-theme">
+    <link rel="canonical" href="https://dorpascal.com/midnight-aurora">
     <meta name="theme-color" content="#0a0f23">
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://dorpascal.com/midnight-aurora-theme">
-    <meta property="og:title" content="Midnight Aurora - Firefox Theme">
-    <meta property="og:description" content="A Firefox theme inspired by the mesmerizing dance of the aurora borealis">
+    <meta property="og:url" content="https://dorpascal.com/midnight-aurora">
+    <meta property="og:title" content="Midnight Aurora - Browser Themes and Extensions">
+    <meta property="og:description" content="Aurora-inspired themes and new tab extensions for Firefox and Chrome, bringing the mesmerizing dance of the aurora borealis to your browser">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -78,6 +78,15 @@
             color: #00ffaa;
             margin-bottom: 10px;
         }
+        .product-section {
+            margin-top: 40px;
+            padding: 20px;
+            background: rgba(26, 32, 56, 0.5);
+            border-radius: 10px;
+        }
+        .product-section h2 {
+            color: #00ffaa;
+        }
         footer {
             text-align: center;
             padding: 20px 0;
@@ -90,6 +99,13 @@
         footer a:hover {
             text-decoration: underline;
         }
+        canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
     </style>
     <!-- Google Tag Manager -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-T7HFKFX0PR"></script>
@@ -102,13 +118,13 @@
 </head>
 <body>
     <header>
+    <canvas id="aurora"></canvas>
         <div class="container">
             <h1>Midnight Aurora</h1>
-            <p class="subtitle">A Firefox theme inspired by the mesmerizing dance of the aurora borealis</p>
-            <a href="https://addons.mozilla.org/en-US/firefox/addon/midnight-aurora/" class="cta-button">Download Theme</a>
+            <p class="subtitle">Aurora-inspired themes and new tab experiences for Firefox and Chrome</p>
         </div>
     </header>
-       <main class="container">
+    <main class="container">
         <section class="features">
             <div class="feature">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
@@ -140,14 +156,97 @@
                 <p>Every element designed for a cohesive experience</p>
             </div>
         </section>
+        <section class="product-section">
+            <h2>New Tab Extension for Chrome</h2>
+            <p>Enhance your Chrome experience with our Midnight Aurora New Tab extension. Features include:</p>
+            <ul>
+                <li>Beautiful aurora animation background</li>
+                <li>Customizable quick links with drag-and-drop reordering</li>
+                <li>Large clock and date display</li>
+                <li>Integrated web search</li>
+            </ul>
+            <p>Transform every new tab into a productive and visually stunning workspace.</p>
+            <a href="./new_tab/newtab.html" class="cta-button">Watch the Demo</a>
+            <a href="https://chrome.google.com/webstore/detail/midnight-aurora-new-tab/dpghhonmlpcaamibllmhdijnpklfofpj" class="cta-button">Get Chrome Extension (Coming Soon)</a>
+        </section>
+        <section class="product-section">
+            <h2>Chrome Theme</h2>
+            <p>Now available for Chrome! Enjoy the same mesmerizing aurora-inspired design in Google Chrome, with carefully crafted colors and details to enhance your browsing.</p>
+            <a href="https://chrome.google.com/webstore/detail/midnight-aurora-theme/gkinjgiebpadnndaihlonmkhjkbdbdla" class="cta-button">Get Chrome Theme (Coming Soon)</a>
+        </section>
+        <section class="product-section">
+            <h2>Firefox Theme</h2>
+            <p>Transform your Firefox browser with the ethereal beauty of the northern lights. Our sleek, dark theme brings deep blues and vibrant teals to your browsing experience.</p>
+            <a href="https://addons.mozilla.org/en-US/firefox/addon/midnight-aurora/" class="cta-button">Get Firefox Theme (Coming Soon)</a>
+        </section>
         <section>
             <h2>About Midnight Aurora</h2>
-            <p>Immerse yourself in the ethereal beauty of the northern lights with Midnight Aurora. This sleek, dark theme transforms your browser with deep blues and vibrant teals, mimicking the dance of aurora borealis across a starry night sky. Experience a visually stunning and eye-friendly browsing environment.</p>
-            <p>Perfect for night owls, astronomy enthusiasts, and anyone who appreciates a calming, beautiful browsing experience.</p>
+            <p>Immerse yourself in the ethereal beauty of the aurora borealis with Midnight Aurora. Our collection of browser themes and extensions transforms your online experience with deep blues and vibrant teals, mimicking the dance of northern lights across a starry night sky.</p>
+            <p>Perfect for night owls, astronomy enthusiasts, and anyone who appreciates a calming, beautiful browsing environment. Available for both Firefox and Chrome, Midnight Aurora brings the magic of the aurora to your daily browsing routine.</p>
         </section>
     </main>
     <footer>
         <p>&copy; 2024 Dor Pascal. All rights reserved | <a href="https://dorpascal.com">dorpascal.com</a></p>
     </footer>
+    <script>
+        const canvas = document.getElementById('aurora');
+        const ctx = canvas.getContext('2d');
+
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        class Aurora {
+            constructor() {
+                this.layers = [];
+                for (let i = 0; i < 3; i++) {
+                    this.layers.push({
+                        particles: [],
+                        speed: 0.5 + i * 0.5,
+                        hue: 120 + i * 60
+                    });
+                }
+                this.initParticles();
+            }
+
+            initParticles() {
+                this.layers.forEach(layer => {
+                    for (let i = 0; i < 50; i++) {
+                        layer.particles.push({
+                            x: Math.random() * canvas.width,
+                            y: Math.random() * canvas.height,
+                            radius: Math.random() * 2 + 1,
+                            speed: layer.speed
+                        });
+                    }
+                });
+            }
+
+            draw() {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+                this.layers.forEach(layer => {
+                    ctx.beginPath();
+                    layer.particles.forEach(p => {
+                        ctx.moveTo(p.x, p.y);
+                        ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+                        p.y -= p.speed;
+                        if (p.y < 0) p.y = canvas.height;
+                    });
+                    ctx.closePath();
+                    ctx.fillStyle = `hsla(${layer.hue}, 100%, 50%, 0.3)`;
+                    ctx.fill();
+                });
+            }
+        }
+
+        const aurora = new Aurora();
+
+        function animate() {
+            requestAnimationFrame(animate);
+            aurora.draw();
+        }
+
+        animate();
+    </script>
 </body>
 </html>

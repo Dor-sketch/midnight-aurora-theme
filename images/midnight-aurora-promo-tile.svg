@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 280" width="440" height="280">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#0a0f23;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2442;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="aurora1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00ff00;stop-opacity:0" />
+      <stop offset="50%" style="stop-color:#00ff00;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#00ff00;stop-opacity:0" />
+    </linearGradient>
+    <linearGradient id="aurora2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff00ff;stop-opacity:0" />
+      <stop offset="50%" style="stop-color:#ff00ff;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#ff00ff;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Night sky background -->
+  <rect width="440" height="280" fill="url(#sky)" />
+  
+  <!-- Stars -->
+  <g fill="#ffffff">
+    <circle cx="40" cy="50" r="1" />
+    <circle cx="100" cy="30" r="1.5" />
+    <circle cx="200" cy="70" r="1" />
+    <circle cx="300" cy="40" r="1" />
+    <circle cx="380" cy="60" r="1" />
+    <circle cx="420" cy="20" r="1" />
+    <circle cx="60" cy="100" r="1" />
+    <circle cx="150" cy="120" r="1" />
+    <circle cx="250" cy="90" r="1" />
+    <circle cx="350" cy="110" r="1" />
+    <circle cx="400" cy="80" r="1" />
+  </g>
+  
+  <!-- Aurora waves -->
+  <path d="M0 80 Q 220 40, 440 80 T 880 80" fill="none" stroke="url(#aurora1)" stroke-width="40" opacity="0.6">
+    <animateTransform attributeName="transform" type="translate" from="-440 0" to="0 0" dur="20s" repeatCount="indefinite" />
+  </path>
+  <path d="M0 140 Q 220 180, 440 140 T 880 140" fill="none" stroke="url(#aurora2)" stroke-width="40" opacity="0.6">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-440 0" dur="15s" repeatCount="indefinite" />
+  </path>
+  
+  <!-- Clock -->
+  <text x="220" y="80" font-family="Arial, sans-serif" font-size="48" fill="#ffffff" text-anchor="middle">12:34</text>
+  
+  <!-- Date -->
+  <text x="220" y="120" font-family="Arial, sans-serif" font-size="24" fill="#ffffff" text-anchor="middle">Monday, October 4</text>
+  
+  <!-- Search bar -->
+  <rect x="70" y="150" width="300" height="40" rx="20" ry="20" fill="rgba(255,255,255,0.2)" />
+  <text x="90" y="175" font-family="Arial, sans-serif" font-size="16" fill="#80e0ff">Search the web</text>
+  
+  <!-- Quick links -->
+  <g transform="translate(70, 210)">
+    <rect width="60" height="60" rx="10" ry="10" fill="rgba(22,28,50,0.7)" />
+    <text x="30" y="40" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle">Gmail</text>
+  </g>
+  <g transform="translate(140, 210)">
+    <rect width="60" height="60" rx="10" ry="10" fill="rgba(22,28,50,0.7)" />
+    <text x="30" y="40" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle">YouTube</text>
+  </g>
+  <g transform="translate(210, 210)">
+    <rect width="60" height="60" rx="10" ry="10" fill="rgba(22,28,50,0.7)" />
+    <text x="30" y="40" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle">GitHub</text>
+  </g>
+  <g transform="translate(280, 210)">
+    <rect width="60" height="60" rx="10" ry="10" fill="rgba(22,28,50,0.7)" />
+    <text x="30" y="40" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle">Reddit</text>
+  </g>
+</svg>
