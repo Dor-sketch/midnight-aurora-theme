@@ -1,6 +1,6 @@
 # Midnight Aurora Theme for Firefox
 
-![Midnight Aurora Theme Banner](./midnight-aurora-banner.svg)
+![Midnight Aurora Theme Banner](./images/midnight-aurora-banner.svg)
 
 ## Description
 

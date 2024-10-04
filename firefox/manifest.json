@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Midnight Aurora",
-  "version": "2.1",
+  "version": "2.2",
   "description": "A sophisticated Firefox theme inspired by the mesmerizing dance of the aurora borealis in a starry night sky",
   "theme": {
     "colors": {
