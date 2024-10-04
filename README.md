@@ -1,16 +1,29 @@
-# Midnight Aurora Theme for Firefox
+# Midnight Aurora Theme for Firefox, Chrome, and Edge
 
 ![Midnight Aurora Theme Banner](./images/midnight-aurora-banner.svg)
 
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/gkinjgiebpadnndaihlonmkhjkbdbdla)](https://chromewebstore.google.com/detail/midnight-aurora/gkinjgiebpadnndaihlonmkhjkbdbdla)
+[![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/gkinjgiebpadnndaihlonmkhjkbdbdla)](https://chromewebstore.google.com/detail/midnight-aurora/gkinjgiebpadnndaihlonmkhjkbdbdla)
+[![Chrome Web Store Rating](https://img.shields.io/chrome-web-store/rating/gkinjgiebpadnndaihlonmkhjkbdbdla)](https://chromewebstore.google.com/detail/midnight-aurora/gkinjgiebpadnndaihlonmkhjkbdbdla)
+[![Chrome Web Store Rating Count](https://img.shields.io/chrome-web-store/rating-count/gkinjgiebpadnndaihlonmkhjkbdbdla)](https://chromewebstore.google.com/detail/midnight-aurora/gkinjgiebpadnndaihlonmkhjkbdbdla)
+
+[![License](https://img.shields.io/github/license/Dor-sketch/midnight-aurora-theme)](LICENSE)
+
+[![Author](https://img.shields.io/badge/author-Dor%20Pascal-80a0c0)](https://dorpascal.com)
+
+[![Project Homepage](https://img.shields.io/badge/project%20homepage-dorpascal.com%2Fmidnight--aurora--theme-80a0c0)](https://dorpascal.com/midnight-aurora-theme/)
+
 ## Description
 
-Midnight Aurora is a sophisticated Firefox theme inspired by the mesmerizing dance of the aurora borealis in a starry night sky. This sleek, dark theme transforms your browser with deep blues and vibrant teals, creating a visually stunning and eye-friendly browsing environment.
+Midnight Aurora is a sophisticated Chrome and Firefox theme inspired by the mesmerizing dance of the aurora borealis in a starry night sky. This sleek, dark theme transforms your browser with deep blues and vibrant teals, creating a visually stunning and eye-friendly browsing environment.
 
 ## Features
 
 - 🌙 **Soothing Dark Mode**: Easy on the eyes, perfect for night browsing
 - 🎨 **Aurora-Inspired Colors**: Deep blues and vibrant teals mimic the northern lights
 - ✨ **Carefully Crafted Details**: Every element designed for a cohesive experience
+
+A seperate add on for Chrome was designed to replace the default new tab page with a custom one, and will be available soon on the Chrome Web Store (currently in review).
 
 ## Installation
 
@@ -37,8 +50,6 @@ To modify or contribute to this theme:
     - Select the `manifest.json` file from your cloned repository
 
 ## Color Scheme
-
-[![Color Scheme](./images/midnight-aurora-colors.svg)](./images/midnight-aurora-colors.svg)
 
 ![background Header Image](./images/midnight-aurora-header-svg.svg)
 
@@ -72,7 +83,9 @@ This project is licensed under the [MIT License](LICENSE).
 ## Links
 
 - [Firefox Add-ons Page](https://addons.mozilla.org/firefox/addon/midnight-aurora/)
-- [Personal Website](https://dorpascal.com/midnight-aurora-theme/)
+- [Project Homepage](https://dorpascal.com/midnight-aurora-theme/)
+- [Personal Website](https://dorpascal.com)
+- [GitHub Repository](https://github.com/Dor-sketch/midnight-aurora-theme)
 
 ---
 
