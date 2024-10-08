@@ -1,11 +1,21 @@
-# Midnight Aurora Theme for Firefox, Chrome, and Edge
+# Midnight Aurora Theme and New Tab for Firefox, Chrome, and Edge
 
 ![Midnight Aurora Theme Banner](./images/midnight-aurora-banner.svg)
+
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/dpghhonmlpcaamibllmhdijnpklfofpj)](https://chromewebstore.google.com/detail/midnight-aurora/dpghhonmlpcaamibllmhdijnpklfofpj)
+[![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/dpghhonmlpcaamibllmhdijnpklfofpj)](https://chromewebstore.google.com/detail/midnight-aurora/dpghhonmlpcaamibllmhdijnpklfofpj)
+[![Chrome Web Store Rating](https://img.shields.io/chrome-web-store/rating/dpghhonmlpcaamibllmhdijnpklfofpj)](https://chromewebstore.google.com/detail/midnight-aurora/dpghhonmlpcaamibllmhdijnpklfofpj)
+[![Chrome Web Store Rating Count](https://img.shields.io/chrome-web-store/rating-count/dpghhonmlpcaamibllmhdijnpklfofpj)](https://chromewebstore.google.com/detail/midnight-aurora/dpghhonmlpcaamibllmhdijnpklfofpj)
 
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/gkinjgiebpadnndaihlonmkhjkbdbdla)](https://chromewebstore.google.com/detail/midnight-aurora/gkinjgiebpadnndaihlonmkhjkbdbdla)
 [![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/gkinjgiebpadnndaihlonmkhjkbdbdla)](https://chromewebstore.google.com/detail/midnight-aurora/gkinjgiebpadnndaihlonmkhjkbdbdla)
 [![Chrome Web Store Rating](https://img.shields.io/chrome-web-store/rating/gkinjgiebpadnndaihlonmkhjkbdbdla)](https://chromewebstore.google.com/detail/midnight-aurora/gkinjgiebpadnndaihlonmkhjkbdbdla)
 [![Chrome Web Store Rating Count](https://img.shields.io/chrome-web-store/rating-count/gkinjgiebpadnndaihlonmkhjkbdbdla)](https://chromewebstore.google.com/detail/midnight-aurora/gkinjgiebpadnndaihlonmkhjkbdbdla)
+
+
+[![mozilla Add-ons](https://img.shields.io/amo/v/midnight-aurora-new-tab)](https://addons.mozilla.org/firefox/addon/midnight-aurora/)
+[![mozilla Add-ons Users](https://img.shields.io/amo/users/midnight-aurora-new-tab)](https://addons.mozilla.org/firefox/addon/midnight-aurora/)
+[![mozilla Add-ons Rating](https://img.shields.io/amo/rating/midnight-aurora-new-tab)](https://addons.mozilla.org/firefox/addon/midnight-aurora/)
 
 [![License](https://img.shields.io/github/license/Dor-sketch/midnight-aurora-theme)](LICENSE)
 
@@ -23,7 +33,7 @@ Midnight Aurora is a sophisticated Chrome and Firefox theme inspired by the mesm
 - 🎨 **Aurora-Inspired Colors**: Deep blues and vibrant teals mimic the northern lights
 - ✨ **Carefully Crafted Details**: Every element designed for a cohesive experience
 
-A seperate add on for Chrome was designed to replace the default new tab page with a custom one, and will be available soon on the Chrome Web Store (currently in review).
+A seperate add on for Chrome was designed to replace the default new tab page with a custom one, and available for download [here](https://chromewebstore.google.com/detail/midnight-aurora-new-tab/dpghhonmlpcaamibllmhdijnpklfofpj).
 
 ## Installation
 

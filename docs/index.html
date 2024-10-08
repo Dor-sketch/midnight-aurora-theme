@@ -232,7 +232,8 @@
         header {
             text-align: center;
             padding: 40px 0;
-            background: linear-gradient(to bottom, #0a0f23, #1a2038);
+            background: linear-gradient(to bottom, #0a0f23aa, #1a38358c);
+            box-shadow: 0 9px 23px rgb(0 68 65 / 73%);
         }
         h1 {
             color: #00ffaa;
@@ -306,6 +307,13 @@
             left: 0;
             z-index: -1;
         }
+        header a {
+            color: #80e0ff;
+            text-decoration: none;
+        }
+        header a:hover {
+            text-decoration: underline;
+        }
         @media (max-width: 600px) {
             .feature {
                 flex-basis: 100%;
@@ -340,8 +348,15 @@
     <canvas id="aurora"></canvas>
         <div class="container">
             <h1>Midnight Aurora</h1>
-            <p class="subtitle">Aurora-inspired themes and new tab experiences for Firefox and Chrome</p>
-        </div>
+            <p class="subtitle">Aurora-inspired themes and new tab experiences for modern browsers</p>
+            <p class="subtitle">Open Source Project by <a href="https://dorpascal.com">Dor Pascal</a></p>
+            <p>
+              <a href="https://github.com/Dor-sketch/midnight-aurora-theme" class="cta-button">
+                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 8px;">
+                View on GitHub
+              </a>
+            </p>
+                   </div>
     </header>
     <main class="container">
             <h2>Features</h2>
