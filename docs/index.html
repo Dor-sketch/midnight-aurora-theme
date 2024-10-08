@@ -256,6 +256,9 @@
         .cta-button:hover {
             background-color: #80e0ff;
         }
+        .cta-button:active {
+            transform: scale(0.95);
+        }
         .features {
             display: flex;
             justify-content: space-around;
@@ -303,6 +306,24 @@
             left: 0;
             z-index: -1;
         }
+        @media (max-width: 600px) {
+            .feature {
+                flex-basis: 100%;
+            }
+            .container {
+                padding: 10px;
+                max-width: unset;
+                margin: unset;
+            }
+            header {
+                padding: 20px 0;
+            }
+            body {
+                font-size: 0.9em;
+                width: 100%;
+            }
+
+        }
 
     </style>
     <!-- Google Tag Manager -->
@@ -323,6 +344,7 @@
         </div>
     </header>
     <main class="container">
+            <h2>Features</h2>
         <section class="features">
             <div class="feature">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
@@ -356,6 +378,9 @@
         </section>
         <section class="product-section">
             <h2>New Tab Extension for Chrome</h2>
+            <a href="https://chrome.google.com/webstore/detail/midnight-aurora-new-tab/dpghhonmlpcaamibllmhdijnpklfofpj">
+                <img src="https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/HRs9MPufa1J1h5glNhut.png" alt="Available in the Chrome Web Store" style="width: 200px; margin-top: 20px;">
+            </a>
             <p>Enhance your Chrome experience with our Midnight Aurora New Tab extension. Features include:</p>
             <ul>
                 <li>Beautiful aurora animation background</li>
@@ -369,11 +394,17 @@
         </section>
         <section class="product-section">
             <h2>Chrome Theme</h2>
+            <a href="https://chrome.google.com/webstore/detail/midnight-aurora-theme/gkinjgiebpadnndaihlonmkhjkbdbdla">
+                <img src="https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/HRs9MPufa1J1h5glNhut.png" alt="Available in the Chrome Web Store" style="width: 200px; margin-top: 20px;">
+            </a>
             <p>Now available for Chrome! Enjoy the same mesmerizing aurora-inspired design in Google Chrome, with carefully crafted colors and details to enhance your browsing.</p>
             <a href="https://chrome.google.com/webstore/detail/midnight-aurora-theme/gkinjgiebpadnndaihlonmkhjkbdbdla" class="cta-button">Get Chrome Theme</a>
         </section>
         <section class="product-section">
             <h2>Firefox Extension</h2>
+            <a href="https://addons.mozilla.org/en-US/firefox/addon/midnight-aurora-new-tab/">
+                <img src="https://blog.mozilla.org/addons/files/2015/11/get-the-addon.png" alt="Available in the Firefox Add-ons Store" style="width: 172px; margin-top: 20px;">
+            </a>
             <p>Transform your Firefox browser with the ethereal beauty of the northern lights. Our sleek, dark theme brings deep blues and vibrant teals to your browsing experience.</p>
             <a href="https://addons.mozilla.org/en-US/firefox/addon/midnight-aurora-new-tab/" class="cta-button">Get Firefox Extension</a>
         </section>
