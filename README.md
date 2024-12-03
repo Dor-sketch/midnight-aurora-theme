@@ -12,6 +12,10 @@
 [![Chrome Web Store Rating](https://img.shields.io/chrome-web-store/rating/gkinjgiebpadnndaihlonmkhjkbdbdla)](https://chromewebstore.google.com/detail/midnight-aurora/gkinjgiebpadnndaihlonmkhjkbdbdla)
 [![Chrome Web Store Rating Count](https://img.shields.io/chrome-web-store/rating-count/gkinjgiebpadnndaihlonmkhjkbdbdla)](https://chromewebstore.google.com/detail/midnight-aurora/gkinjgiebpadnndaihlonmkhjkbdbdla)
 
+[![Edge Add-ons Store](https://img.shields.io/badge/Edge%20Add--ons-v1.0-blue)](https://microsoftedge.microsoft.com/addons/detail/midnight-aurora-new-tab/lbcppolhojigpecfpbbaoimfeokgecbg)
+[![Edge Users](https://img.shields.io/badge/Users-64%2B-blue)](https://microsoftedge.microsoft.com/addons/detail/midnight-aurora-new-tab/lbcppolhojigpecfpbbaoimfeokgecbg) | Last Edge updated: Nov 2024
+
+
 
 [![mozilla Add-ons](https://img.shields.io/amo/v/midnight-aurora-new-tab)](https://addons.mozilla.org/firefox/addon/midnight-aurora/)
 [![mozilla Add-ons Users](https://img.shields.io/amo/users/midnight-aurora-new-tab)](https://addons.mozilla.org/firefox/addon/midnight-aurora/)
